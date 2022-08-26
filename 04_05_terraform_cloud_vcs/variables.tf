@@ -17,7 +17,7 @@ variable "instance_count" {
 variable "instance_tags" {
   type = map(any)
   default = {
-    "environment" = "dev"
+    "environment" = "staging"
   }
 }
 # //////////////////////////////
